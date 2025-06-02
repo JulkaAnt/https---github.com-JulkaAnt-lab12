@@ -7,7 +7,14 @@
     <title>Vite App</title>
   </head>
   <body>
-    <div id="app"></div>
+    <h1>Artykuły</h1>
+    <select id="sorting">
+        <option value="RosnacaData" selected>po dacie rosnąco</option>
+        <option value="MalejacaData">po dacie malejąco</option>
+        <option value="AlfabetycznieNazwisko">alfabetycznie po nazwisku</option>
+      </select>
+    <div id="articles-container"></div>
+
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
